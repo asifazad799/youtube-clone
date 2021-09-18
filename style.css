@@ -321,12 +321,9 @@ display: flex;
         width: 100%;
         grid-template-columns: auto;
     }
-    .top{
-       justify-content: baseline; 
-    }
     .midcenter{
-        width: 15%;
-        margin-left: 60px;
+        width: 11%;
+        margin-left: 10px;
         padding-left: 0px;
     }
     .topright{
@@ -350,7 +347,7 @@ display: flex;
     .topcenter span{
         color: black;
         border: none; 
-        line-height: 0px;
+        line-height: 36px;
         padding-left: 46px;
     }
     .topright span{
@@ -361,14 +358,12 @@ display: flex;
     }
     .topleft{
         font-size: 27px;
-        width: 36%;
-        padding-right: 10px;
+        width: 42%;
+        padding-right: 15px;
     }
     
     .topcenter input{
-        width: 0px;
-        height: 0px;
-        border: none;
+        display: none;
     }
     .catagories{
         margin-left: 0px;
